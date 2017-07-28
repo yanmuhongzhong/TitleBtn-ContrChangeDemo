@@ -53,7 +53,11 @@ static NSString * const ID = @"cell";
 - (void)setupTopView {
     
     // view
-    UIScrollView *topView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, kDeviceWidth, 40)];
+    CGFloat topViewW = kDeviceWidth;
+    CGFloat topViewH = 35;
+    CGFloat topViewX = 0;
+    CGFloat topViewY = 0;
+    UIScrollView *topView = [[UIScrollView alloc] initWithFrame:CGRectMake(topViewX, topViewY, topViewW, topViewH)];
     topView.backgroundColor = [UIColor whiteColor];
     _topView = topView;
     [self.view addSubview:topView];
