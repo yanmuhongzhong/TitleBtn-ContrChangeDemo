@@ -11,9 +11,9 @@
 		A165D8B21F2B11E10083ECAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A165D8B11F2B11E10083ECAA /* AppDelegate.m */; };
 		A165D8BA1F2B11E10083ECAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A165D8B91F2B11E10083ECAA /* Assets.xcassets */; };
 		A165D8BD1F2B11E10083ECAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A165D8BB1F2B11E10083ECAA /* LaunchScreen.storyboard */; };
-		A165D8C61F2B12370083ECAA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A165D8C51F2B12370083ECAA /* BaseViewController.m */; };
 		A165D8C91F2B129F0083ECAA /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = A165D8C81F2B129F0083ECAA /* UIView+Layout.m */; };
-		A165D8CC1F2B16AB0083ECAA /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A165D8CB1F2B16AB0083ECAA /* DemoViewController.m */; };
+		A165D8D41F2B23CE0083ECAA /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A165D8D11F2B23CE0083ECAA /* DemoViewController.m */; };
+		A165D8D51F2B23CE0083ECAA /* TitleBtnAndContrChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A165D8D31F2B23CE0083ECAA /* TitleBtnAndContrChangeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +24,12 @@
 		A165D8B91F2B11E10083ECAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A165D8BC1F2B11E10083ECAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A165D8BE1F2B11E10083ECAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A165D8C41F2B12370083ECAA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		A165D8C51F2B12370083ECAA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		A165D8C71F2B129F0083ECAA /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		A165D8C81F2B129F0083ECAA /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
-		A165D8CA1F2B16AB0083ECAA /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
-		A165D8CB1F2B16AB0083ECAA /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		A165D8D01F2B23CE0083ECAA /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		A165D8D11F2B23CE0083ECAA /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		A165D8D21F2B23CE0083ECAA /* TitleBtnAndContrChangeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleBtnAndContrChangeController.h; sourceTree = "<group>"; };
+		A165D8D31F2B23CE0083ECAA /* TitleBtnAndContrChangeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleBtnAndContrChangeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +62,10 @@
 		A165D8AC1F2B11E10083ECAA /* TitleAndViewChange */ = {
 			isa = PBXGroup;
 			children = (
-				A165D8C41F2B12370083ECAA /* BaseViewController.h */,
-				A165D8C51F2B12370083ECAA /* BaseViewController.m */,
-				A165D8CA1F2B16AB0083ECAA /* DemoViewController.h */,
-				A165D8CB1F2B16AB0083ECAA /* DemoViewController.m */,
+				A165D8D21F2B23CE0083ECAA /* TitleBtnAndContrChangeController.h */,
+				A165D8D31F2B23CE0083ECAA /* TitleBtnAndContrChangeController.m */,
+				A165D8D01F2B23CE0083ECAA /* DemoViewController.h */,
+				A165D8D11F2B23CE0083ECAA /* DemoViewController.m */,
 				A165D8C71F2B129F0083ECAA /* UIView+Layout.h */,
 				A165D8C81F2B129F0083ECAA /* UIView+Layout.m */,
 				A165D8B01F2B11E10083ECAA /* AppDelegate.h */,
@@ -157,11 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A165D8D51F2B23CE0083ECAA /* TitleBtnAndContrChangeController.m in Sources */,
 				A165D8C91F2B129F0083ECAA /* UIView+Layout.m in Sources */,
 				A165D8B21F2B11E10083ECAA /* AppDelegate.m in Sources */,
-				A165D8C61F2B12370083ECAA /* BaseViewController.m in Sources */,
-				A165D8CC1F2B16AB0083ECAA /* DemoViewController.m in Sources */,
 				A165D8AF1F2B11E10083ECAA /* main.m in Sources */,
+				A165D8D41F2B23CE0083ECAA /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +312,7 @@
 				A165D8C31F2B11E10083ECAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

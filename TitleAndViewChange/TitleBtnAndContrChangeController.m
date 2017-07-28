@@ -1,12 +1,12 @@
 //
-//  BaseViewController.m
+//  TitleBtnAndContrChangeController.m
 //  TitleAndViewChange
 //
 //  Created by GHZ on 2017/7/28.
 //  Copyright © 2017年 hongzhong. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "TitleBtnAndContrChangeController.h"
 #import "UIView+Layout.h"
 
 #define kDeviceWidth [UIScreen mainScreen].bounds.size.width
@@ -15,7 +15,7 @@
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 static NSString * const ID = @"cell";
-@interface BaseViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface TitleBtnAndContrChangeController ()<UICollectionViewDataSource,UICollectionViewDelegate>
 
 @property(nonatomic, weak) UIScrollView *topView;
 @property(nonatomic, weak) UIButton *selectButton;
@@ -26,7 +26,7 @@ static NSString * const ID = @"cell";
 
 @end
 
-@implementation BaseViewController
+@implementation TitleBtnAndContrChangeController
 
 - (void)viewWillAppear:(BOOL)animated {
     

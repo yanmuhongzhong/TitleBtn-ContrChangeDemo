@@ -1,5 +1,5 @@
 //
-//  BaseViewController.h
+//  TitleBtnAndContrChangeController.h
 //  TitleAndViewChange
 //
 //  Created by GHZ on 2017/7/28.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseViewController : UIViewController
+@interface TitleBtnAndContrChangeController : UIViewController
 
 @end

@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
+#import "TitleBtnAndContrChangeController.h"
 
-@interface DemoViewController : BaseViewController
+@interface DemoViewController : TitleBtnAndContrChangeController
 
 @end
